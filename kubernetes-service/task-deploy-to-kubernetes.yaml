@@ -7,6 +7,7 @@ spec:
   params:
     - name: username
       description: The name to put on the application
+      default: "Armando Paredes"
     - name: ibmcloud-api
       description: the ibmcloud api
       default: https://cloud.ibm.com
