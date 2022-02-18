@@ -1,0 +1,8 @@
+- apiVersion: tekton.dev/v1beta1
+  kind: TriggerBinding
+  metadata:
+    name: webhook-binding
+  spec:
+    params:
+      - name: name
+        value: $(event.name)
