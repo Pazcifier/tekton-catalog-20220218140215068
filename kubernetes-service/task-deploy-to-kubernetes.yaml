@@ -5,6 +5,8 @@ metadata:
   name: iks-deploy-to-kubernetes
 spec:
   params:
+    - name: username
+      description: The name to put on the application
     - name: ibmcloud-api
       description: the ibmcloud api
       default: https://cloud.ibm.com
